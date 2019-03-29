@@ -1,0 +1,377 @@
+
+#body{
+    display: grid;
+    grid-template-columns: 25% 75%;
+    grid-template-rows: 40px 500px 40px; 
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 0px;
+    /*background-color:  #ffecb3;
+    background-color: #ffaa80;
+    background-color: #b3a698;*/
+    /*background-color: #cea77e;*/
+    background-color: white;
+}
+
+ul{
+    list-style: none;
+    margin: 0;
+}
+
+li {
+    display: inline;
+    margin: 2%;
+}
+
+li a{
+    text-decoration: none;
+    color: white;
+}
+
+#navbar{
+    background-color:#00664b;
+    grid-column: 2;
+    grid-row: 1;
+    width: auto;
+    text-align: center;
+    font-size: 150%;
+    border-style: solid;
+    border-width: 5px; 
+    border-left: none;
+}
+
+#infoBarContainer{
+    background-color: #2d8659;
+    grid-column: 1;
+    grid-row: 1 /span 3;
+    text-align: center;
+    border-style: solid;
+    border-width: 5px;    
+    /*line-height: 20px;*/
+}
+
+#ian{
+    /*height: 70%;
+    width: 80%;*/
+    height: 255px;
+    width: 225px;
+    border-style: solid;
+    border-width: 5px;  
+}
+
+#name{
+    color: white;
+    /*color: #ffecb3;*/
+}
+
+#blurb{ 
+margin: 5%;
+}
+
+
+#homeContent{
+    /*background-color:  #ffecb3;*/
+    /*background-color: #ffaa80;*/
+    background-color: white;
+    grid-column: 2;
+    grid-row: 2;        
+    text-align: center;
+    border-style: solid;
+    border-width: 5px; 
+    border-top: none; 
+    border-left: none;
+    border-bottom: none;
+}
+
+
+#links{
+    background-color:#00664b;
+    grid-column: 2;
+    grid-row: 3;
+    width: auto;
+    border-style: solid;
+    border-width: 5px;
+    border-left: none;
+    text-align: center;
+    font-size: 150%;
+}
+
+#email{
+    color: white;
+}
+
+#gd1{
+
+ height: 250px;
+ width: 250px;
+}
+
+#gd2{
+    height: 250px;
+    width: 250px;
+}
+
+#gd3{
+    height: 250px;
+    width: 250px;
+}
+#gd4{
+    height: 250px;
+    width: 250px;
+}
+
+#gd5{
+    height: 200px;
+    width: 200px;
+}
+#gd6{
+    height: 200px;
+    width: 200px;
+}
+
+#ill1{
+    height: 250px;
+    width: 250px;
+}
+#ill2{
+    height: 250px;
+    width: 250px;
+}
+#ill3{
+    height: 250px;
+    width: 250px;
+}
+#ill4{
+    height: 250px;
+    width: 250px;
+}
+
+#homeGraphic{
+    height: 275x;
+    width: 275px;  
+}
+
+#gdTitleImg{
+    height: 275x;
+    width: 275px;  
+}
+
+#wdTitleImg{
+    height: 275x;
+    width: 275px;  
+}
+
+#illTitleImg{
+    height: 336px;
+    width: 336px;  
+}
+
+#inquireTitleImg{
+    height: 275x;
+    width: 275px;   
+}
+
+#blckweather{
+    font-size: 50px;
+    text-decoration: none;
+}
+#bw_description{
+    font-size: 30px;
+}
+
+#fstbrk{
+    font-size: 50px;
+    text-decoration: none;
+}
+#fb_description{
+    font-size: 30px;   
+}
+@media(max-width: 425px){
+    #body{
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: 50px 345px 370px 40px; 
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        padding: 0px;
+        /*background-color:  #ffecb3;
+        background-color: #ffaa80;
+        background-color: #b3a698;*/
+        /*background-color: #cea77e;*/
+        background-color: white;
+
+    }
+
+    ul{
+        list-style: none;
+        margin: 0;
+    }
+    
+    li {
+        display: inline;
+        margin: 5px;
+    }
+    
+    li a{
+        text-decoration: none;
+        color: white;
+    }
+    
+    #navbar{
+        background-color:#00664b;
+        grid-column: 1;
+        grid-row: 1;
+        width: auto;
+        text-align: center;
+        font-size: 13px;
+        border-style: solid;
+        border-width: 5px; 
+        
+    }
+    
+    #infoBarContainer{
+        background-color: #2d8659;
+        grid-column: 1;
+        grid-row: 3;
+        text-align: center;
+        border-style: solid;
+        border-width: 5px;    
+        /*line-height: 20px;*/
+        width: auto;
+    }
+
+    #ian{
+        /*height: 70%;
+        width: 80%;*/
+        height: 85px;
+        width: 75px;
+        border-style: solid;
+        border-width: 5px;  
+    }
+    
+    #name{
+        color: white;
+        /*color: #ffecb3;*/
+    }
+    
+    #blurb{ 
+    margin: 5%;
+    font-size: 15px;
+}
+    
+#homeContent{
+    /*background-color:  #ffecb3;*/
+    /*background-color: #ffaa80;*/
+    background-color: white;
+    grid-column: 1;
+    grid-row: 2;        
+    text-align: center;
+    border-style: solid;
+    border-width: 5px; 
+    border-top: none; 
+    border-bottom: none;
+}
+
+
+#links{
+    background-color:#00664b;
+    grid-column: 1;
+    grid-row: 4;
+    width: auto;
+    border-style: solid;
+    border-width: 5px;
+    border-left: none;
+    text-align: center;
+    font-size: 13px;
+}
+
+#homeGraphic{
+    height: 100px;
+    width: 100px;  
+}
+
+#welcomeTxt{
+    font-size: 20px;
+}
+
+#wdTitleImg{
+    height: 100x;
+    width: 100px;  
+}
+
+#blckweather{
+    font-size: 25px;
+    text-decoration: none;
+}
+#bw_description{
+    font-size: 20px;
+}
+
+#fstbrk{
+    font-size: 25px;
+    text-decoration: none;
+}
+#fb_description{
+    font-size: 20px;   
+}
+
+#gdTitleImg{
+    height: 100px;
+    width: 100px;  
+}
+
+#gd1{
+
+    height: 150px;
+    width: 150px;
+   }
+   
+   #gd2{
+       height: 150px;
+       width: 150px;
+   }
+   
+   #gd3{
+       height: 150px;
+       width: 150px;
+   }
+   #gd4{
+       height: 150px;
+       width: 150px;
+   }
+
+   #ill1{
+    height: 150px;
+    width: 150px;
+}
+#ill2{
+    height: 150px;
+    width: 150px;
+}
+#ill3{
+    height: 150px;
+    width: 150px;
+}
+#ill4{
+    height: 150px;
+    width: 150px;
+}
+
+#illTitleImg{
+    height: 100px;
+    width: 100px;  
+}
+
+#inquireTitleImg{
+    height: 100px;
+    width: 100px;   
+}
+
+#qInfo{
+    font-size: 20px;
+}
+}
